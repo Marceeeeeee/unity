@@ -345,6 +345,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/AvvioController.cs"
+"Assets/Script/EnemyBehaviour.cs"
+"Assets/Script/GameOverScript.cs"
 "Assets/Script/MouseBehaviour.cs"
 "Assets/Script/PlayerMovementScript.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
