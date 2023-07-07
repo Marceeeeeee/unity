@@ -348,7 +348,6 @@
 "Assets/Script/EnemyBehaviour.cs"
 "Assets/Script/GameOverScript.cs"
 "Assets/Script/Gun.cs"
-"Assets/Script/Laser.cs"
 "Assets/Script/MouseBehaviour.cs"
 "Assets/Script/PlayerMovementScript.cs"
 "Assets/Script/TankBehaviour.cs"
