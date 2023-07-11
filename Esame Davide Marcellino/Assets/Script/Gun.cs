@@ -1,10 +1,13 @@
 
 using UnityEngine;
+using TMPro;
 
 public class Gun : MonoBehaviour
 {
     public float damage = 50f;
     public float range = 100f;
+    public TMP_Text textScore;
+    public int score = 0;
 
     public Camera fpsCamera;
     // Update is called once per frame
@@ -27,6 +30,8 @@ public class Gun : MonoBehaviour
                 }else
                 {
                 target.TakeDamage(damage);
+                score += 50;
+                textScore.text = "Score: " + score;
                 }
             }
         }

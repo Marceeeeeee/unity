@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovementScript : MonoBehaviour
 {
@@ -10,10 +12,13 @@ public class PlayerMovementScript : MonoBehaviour
     public float speed = 9f;
     public float gravity = -9.81f;
     public float jumpHeight = 1.2f;
+    public static int score = 0;
+
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
+
 
     Vector3 velocity;
     bool isGrounded;
@@ -21,7 +26,7 @@ public class PlayerMovementScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
